@@ -1,1 +1,1 @@
-# VueJS-VueInstance
+# VueJS-Vue Instance
