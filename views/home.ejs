@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Home</title>
+        <script src="/js/vue2.4.2.js"></script>
+        <script src="/js/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            Got a question for our virtual agent? Just Ask?
+            <input type="text" v-model="question"/>
+            {{response}}
+            <ul>
+                <li v-for="product in products">{{product.name}}</li>
+            </ul>
+        </div>
+    </body>
+    <script type="text/javascript" src="/vue/vue01.js"></script>
+</html>
